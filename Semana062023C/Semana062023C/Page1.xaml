@@ -12,8 +12,11 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                <Label Text="{Binding Name}"/>
-                                <Label Text="{Binding LastName}"/>
+                                <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Name}" TextColor="Blue"/>
+                                    <Label Text="{Binding LastName}" TextColor="Blue"/>
+                                </StackLayout>
+                                <Label Text="{Binding DNI}" TextColor="Red"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
