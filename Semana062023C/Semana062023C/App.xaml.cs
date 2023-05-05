@@ -10,7 +10,7 @@ namespace Semana062023C
         {
             InitializeComponent();
 
-            MainPage = new Page1();
+            MainPage = new Page2();
         }
 
         protected override void OnStart()
