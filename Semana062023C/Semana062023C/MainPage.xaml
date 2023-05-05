@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana062023C.MainPage">
+
+    <StackLayout>
+        <ListView>
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+
+                    <x:String>Perú</x:String>
+                    <x:String>Argentina</x:String>
+                    <x:String>Brasil</x:String>
+                    <x:String>Bolivia</x:String>
+                    <x:String>Chile</x:String>
+                    
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
