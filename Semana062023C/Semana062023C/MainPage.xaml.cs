@@ -13,6 +13,17 @@ namespace Semana062023C
         public MainPage()
         {
             InitializeComponent();
+            List<string> names = new List<string>();
+            names.Add("Hugo");
+            names.Add("Paco");
+            names.Add("Luis");
+            names.Add("Juan");
+
+            lvNames.ItemsSource = names;
+
+
+
+
         }
     }
 }

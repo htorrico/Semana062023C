@@ -4,6 +4,7 @@
              x:Class="Semana062023C.MainPage">
 
     <StackLayout>
+        <ListView x:Name="lvNames"></ListView>
         <ListView>
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
