@@ -15,6 +15,22 @@ namespace Semana062023C
         public Page1()
         {
             InitializeComponent();
+            
+
+
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            List<Person> people= new List<Person>();
+
+            people.Add(new Person { Name = "Hugo", LastName = "Torrico" });
+            people.Add(new Person { Name = "Juan", LastName = "Torrico" });
+            people.Add(new Person { Name = "Janeth", LastName = "Marquez" });
+            people.Add(new Person { Name = "Yury", LastName = "Marquez" });
+
+
+            this.lvPeople.ItemsSource = people;
         }
     }
 }

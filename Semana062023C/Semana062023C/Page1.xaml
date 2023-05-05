@@ -4,12 +4,16 @@
              x:Class="Semana062023C.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <ListView>
+
+            <Button Text="Load People" Clicked="Button_Clicked"> </Button>
+            
+            <ListView x:Name="lvPeople">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout>
-                                
+                                <Label Text="{Binding Name}"/>
+                                <Label Text="{Binding LastName}"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
